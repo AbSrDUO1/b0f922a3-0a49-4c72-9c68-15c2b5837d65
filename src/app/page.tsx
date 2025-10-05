@@ -12,17 +12,17 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
-        <NavbarStyleApple 
-          brand="SaaS MVP" 
-          logoSrc="/images/logo.svg" 
-          logoAlt="Logo" 
+        <NavbarStyleApple
+          logoSrc="/images/logo.svg"
+          logoAlt="Logo"
           navItems={[
             { name: "Hero", id: "hero" },
             { name: "About", id: "about" },
             { name: "How To Buy", id: "how-to-buy" },
             { name: "Tokenomics", id: "tokenomics" },
             { name: "Footer", id: "footer" }
-          ]} 
+          ]}
+          brand="SaaS MVP"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -37,7 +37,7 @@ export default function Home() {
       <div id="about" data-section="about">
         <SocialsAbout
           title="About SaaS MVP"
-          descriptions={["Delivering the best services in the industry.", "Empowering users with innovative solutions."]} 
+          descriptions={["Delivering the best services in the industry.", "Empowering users with innovative solutions."]}
         />
       </div>
       <div id="how-to-buy" data-section="how-to-buy">
