@@ -1,7 +1,7 @@
 "use client";
 
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
+import NavbarStyleApple from '@/components/navigation/NavbarStyleApple';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
 import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
@@ -66,7 +66,6 @@ export default function Home() {
               { label: "Terms of Service", onClick: () => {} }
             ]}
           ]}
-          copyrightText="© 2023 SaaS MVP. All rights reserved."
           onPrivacyClick={() => {}}
         />
       </div>
