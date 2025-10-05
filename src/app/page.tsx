@@ -22,7 +22,7 @@ export default function Home() {
             { name: "Tokenomics", id: "tokenomics" },
             { name: "Footer", id: "footer" }
           ]}
-          brand="SaaS MVP"
+          brandName="SaaS MVP"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
